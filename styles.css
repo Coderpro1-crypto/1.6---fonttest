@@ -1,4 +1,12 @@
  @font-face {
+    font-family: 'robotoitalic';
+    src: url('roboto-italic-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('roboto-italic-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ @font-face {
     font-family: 'freightround_probold';
     src: url('fonts/freightroundprobold-webfont.woff2') format('woff2'),
          url('fonts/freightroundprobold-webfont.woff') format('woff');
@@ -19,6 +27,7 @@ body {
     margin: auto;
     font-family: "Roboto", sans-serif;
     font-weight: 800;
+    font-style: italic;
 }
 
 h1 {
@@ -26,7 +35,7 @@ h1 {
 }
 footer p {
    font-family: "Google Sans", sans-serif;
-   font-weight: 300; 
+   font-weight: 400;
 }
 .icons {
     font-size: 32px;
